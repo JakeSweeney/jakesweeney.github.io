@@ -1,4 +1,7 @@
 plugins: 
   - jekyll-include-cache
+  - jekyll-remote-theme
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 title: Jake Sweeney Portfolio
+minimal_mistakes_skin: "mint"
+
