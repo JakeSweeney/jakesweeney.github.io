@@ -1,3 +1,6 @@
+---
+layout: single
+---
 # CV
 
 Thanks for visiting my page, below is my CV:
