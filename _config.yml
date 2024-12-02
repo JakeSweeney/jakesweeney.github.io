@@ -4,5 +4,9 @@ plugins:
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 title: Jake Sweeney Portfolio
 minimal_mistakes_skin: "mint"
+collections:
+  - lists
+
+
 excerpt_separator: <!--more-->
 
