@@ -4,7 +4,7 @@ title: Home Page
 ---
 ## Latest Website Updates
 <h2><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h2>
-<p>{{site.posts.first.date | date: "%Y-%d-%m"}}</p>
+<p>{{site.posts.first.date | date: "%d-%m-%Y"}}</p>
 <p>{{site.posts.first.excerpt }}</p>
 
 ## Pinned Items
@@ -13,7 +13,7 @@ title: Home Page
 {% for post in site.posts %}
 {% if page.slug == AboutMe %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{post.date | date: "%Y-%m-%d"}}</p>
+<p>{{post.date | date: "%d-%m-%Y"}}</p>
 <p>{{post.excerpt }}</p>
 {% endif %}
 {% endfor %}
