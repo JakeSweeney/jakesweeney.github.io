@@ -2,8 +2,8 @@
 layout: single
 title: Current Blog Page
 ---
-<ul>
 {% for post in site.posts %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p>{{post.date | date: "%Y-%d-%m"}}</p>
+<p>{{post.excerpt }}</p>
 {% endfor %}
-</ul>
