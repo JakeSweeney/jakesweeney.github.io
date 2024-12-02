@@ -13,7 +13,7 @@ title: Home Page
 {% for post in site.posts %}
 {% if page.slug == AboutMe %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{post.date | date: "%Y-%d-%m"}}</p>
+<p>{{post.date | date: "%Y-%m-%d"}}</p>
 <p>{{post.excerpt }}</p>
 {% endif %}
 {% endfor %}
